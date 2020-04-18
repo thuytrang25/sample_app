@@ -39,8 +39,8 @@ group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '3.1.5'
-gem 'spring', '2.1.0'
-gem 'spring-watcher-listen', '2.0.1'
+  gem 'spring', '2.1.0'
+  gem 'spring-watcher-listen', '2.0.1'
 
 end
 
@@ -51,10 +51,10 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
   gem 'rails-controller-testing', '1.0.4'
-gem 'minitest', '5.11.3'
-gem 'minitest-reporters', '1.3.8'
-gem 'guard', '2.15.0'
-gem 'guard-minitest', '2.4.6'
+  gem 'minitest', '5.11.3'
+  gem 'minitest-reporters', '1.3.8'
+  gem 'guard', '2.15.0'
+  gem 'guard-minitest', '2.4.6'
 
 end
 group :production do
