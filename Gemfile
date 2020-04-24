@@ -27,7 +27,11 @@ gem 'bcrypt', '3.1.13'
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
+
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'faker', '2.1.2'
+gem 'will_paginate', '3.1.8'
+gem 'bootstrap-will_paginate', '1.0.0'
 gem 'bootstrap-sass','3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 
@@ -61,7 +65,7 @@ group :test do
 
 end
 group :production do
-gem 'pg', '1.1.4'
+  gem 'pg', '1.1.4'
 end
 
 
