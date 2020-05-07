@@ -1,5 +1,4 @@
 require 'test_helper'
-
 class UsersIndexTest < ActionDispatch::IntegrationTest
 	def setup
 		@user = users(:michael)
@@ -13,5 +12,4 @@ class UsersIndexTest < ActionDispatch::IntegrationTest
 			assert_select 'a[href=?]', user_path(user), text: user.name
 		end
 	end
-
 end
