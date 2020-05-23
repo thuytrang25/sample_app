@@ -1,7 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
 # Ruby on Rails Tutorial sample application
 This is the sample application for
 [*Ruby on Rails Tutorial:
@@ -30,24 +26,4 @@ If the test suite passes, you'll be ready to run the app in a local server:
 $ rails server
 ```
 For more information, see the
-[*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[*Ruby on Rails Tutorial* book](https://ww.railstutorial.org/book).
