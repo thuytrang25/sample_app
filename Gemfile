@@ -8,7 +8,7 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 # Use sqlite3 as the database for Active Record
 gem 'aws-sdk-s3', '1.46.0', require: false
 gem "win32console", '1.3.2'
-gem 'image_processing', '1.9.3' 
+gem 'image_processing', '1.12.2' 
 gem 'mini_magick', '4.9.5' 
 gem 'active_storage_validations', '0.8.2'
 gem 'bcrypt', '3.1.13' 
